@@ -42,3 +42,29 @@ header{
 hr{
     opacity: 20%;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.arrow{
+    position: absolute;
+    transform: translateX(-50.5rem) translateY(1.5rem);
+}
+
+.heroSub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name{
+    font-size: 3rem;
+    color: #eeeeee;
+}
+
+
