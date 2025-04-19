@@ -120,3 +120,47 @@ hr{
     text-align: justify;
     color: rgba(238, 238, 238, 0.75);
 }
+
+.works{
+    background-image: url(assets/svg/background.svg);
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+
+.worksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.projectTitel{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.works ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.works li{
+    border-radius: 16px;
+    background-color: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+}
+
+.works li img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
