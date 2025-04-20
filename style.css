@@ -94,7 +94,7 @@ hr{
     margin: 5rem auto;
     max-width: 1200px;
     gap: 10rem;
-    
+
 }
 
 .textContainer{
@@ -171,3 +171,32 @@ hr{
 .works li :hover{
     transform:scale(2) ;
 }
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.contactTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 20rem;
+}
+
+
