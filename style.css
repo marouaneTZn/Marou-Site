@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #222831;
+    background-color: black;
 }
 
 header{
@@ -199,4 +199,43 @@ hr{
     gap: 20rem;
 }
 
+.contact h3, .contact a{
+    color: #eeeeee;
+    text-decoration: none;
+}
 
+.emailAndPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.socialMedia a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgpa(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+}
+
+.socialMedia img{
+    width: 24px;
+    height: 24px;
+}
+
+footer{
+    color: #eeeeee;
+    padding: 2rem;
+    text-align: center;
+    
+}
