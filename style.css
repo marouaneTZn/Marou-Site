@@ -9,7 +9,11 @@
 }
 
 body{
-    background-color: black;
+    background: linear-gradient(to bottom, indigo, black);
+}
+
+.myPic{
+    width: 100px;
 }
 
 header{
@@ -122,11 +126,7 @@ hr{
     color: rgba(238, 238, 238, 0.75);
 }
 
-.works{
-    background-image: url(assets/svg/background.svg);
-    padding: 10rem 10rem;
-    margin: 5rem 0rem;
-}
+
 
 .worksContainer{
     display: flex;
