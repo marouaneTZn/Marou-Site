@@ -94,6 +94,7 @@ hr{
     margin: 5rem auto;
     max-width: 1200px;
     gap: 10rem;
+    
 }
 
 .textContainer{
@@ -145,6 +146,8 @@ hr{
 }
 
 .works ul{
+    flex-wrap: wrap;
+    gap: 15px;
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -163,4 +166,8 @@ hr{
     height: 200px;
     object-fit: contain;
     transition: transform 0.2s;
+}
+
+.works li :hover{
+    transform:scale(2) ;
 }
